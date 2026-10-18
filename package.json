@@ -1,0 +1,23 @@
+{
+  "name": "roadmap-render-ai-service",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI moderation service for RoadMap reports running on Render.com",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.679.0",
+    "@google/genai": "^0.14.0",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "pino": "^9.5.0",
+    "pino-pretty": "^13.0.0"
+  }
+}
